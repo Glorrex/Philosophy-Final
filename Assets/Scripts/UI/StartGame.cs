@@ -16,12 +16,12 @@ public class StartGame : MonoBehaviour
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Main Scene");
         PlayerPrefs.DeleteAll();
     }
     public void MainMenu()
     {
-        SceneManager.LoadScene("StartGame");
+        SceneManager.LoadScene("Philosophy Final");
         PlayerPrefs.DeleteAll();
     }
 
