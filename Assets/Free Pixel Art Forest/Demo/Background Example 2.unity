@@ -1977,8 +1977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  PontoDeDestino: -1
+  PontoOriginal: -0.5
 --- !u!212 &1515689721
 SpriteRenderer:
   m_ObjectHideFlags: 0

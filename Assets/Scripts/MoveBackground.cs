@@ -8,8 +8,8 @@ public class MoveBackground : MonoBehaviour {
 
 	public float speed;
 	private float x;
-	public float PontoDeDestino;
-	public float PontoOriginal;
+	public float destinationPoint;
+	public float originalPoint;
 
 
 
@@ -29,10 +29,11 @@ public class MoveBackground : MonoBehaviour {
 
 
 
-		if (x <= PontoDeDestino){
+		if (x <= destinationPoint)
+		{
 
 			Debug.Log ("hhhh");
-			x = PontoOriginal;
+			x = originalPoint;
 			transform.position = new Vector3 (x, transform.position.y, transform.position.z);
 		}
 
