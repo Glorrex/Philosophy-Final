@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public float runMultiplier = 2f;
     public AudioClip jumpSound;
+    public AudioClip MusicTest;
 
 
 
@@ -86,7 +87,6 @@ void Update()
 
         return transform.Find("GroundCheck").GetComponent<GroundCheck>().isGrounded;
     }
-
     private void OnTriggerEnter2D(Collider2D collider)
     {
         //Check tto see if player is touching an Enemy
@@ -94,6 +94,10 @@ void Update()
             Die();
         {
             //Debug.Log("The player is touching" + collider.tag + "tag!");
+        }
+        {
+            if (collider.CompareTag("Audio1"))
+                AudioSource.PlayClipAtPoint(MusicTest, transform.position); 
         }
         if (collider.CompareTag("Enemyone"))
         {
