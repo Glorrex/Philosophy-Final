@@ -16,7 +16,7 @@ public class StartGame : MonoBehaviour
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene("Main Scene");
+        SceneManager.LoadScene("SampleScene");
         PlayerPrefs.DeleteAll();
     }
     //public void MainMenu()
