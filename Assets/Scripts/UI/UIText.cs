@@ -24,7 +24,7 @@ public class UIText : MonoBehaviour
     void Update()
     {
         Lives = gameManager.GetComponent<GameManager>().getLives();
-        LivesText.text = "Frogs x " + Lives;
+        LivesText.text = "Lives x " + Lives;
         score = gameManager.GetComponent<GameManager>().getScore();
         scoreText.text = "" + score;
         coins = gameManager.GetComponent<GameManager>().getCoins();
