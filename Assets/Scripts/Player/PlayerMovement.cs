@@ -53,7 +53,7 @@ void Update()
         if(isJumping)
         {
             rb.AddForce(new Vector2(0f, jumpForce));
-            AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+            //AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         }
         isJumping = false;
         

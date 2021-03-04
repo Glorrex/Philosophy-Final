@@ -132,9 +132,9 @@ GameObject:
   - component: {fileID: 77698213}
   - component: {fileID: 77698212}
   - component: {fileID: 77698211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
-  m_TagString: Platform
+  m_TagString: Enviroment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 143799983}
   m_Layer: 0
   m_Name: GroundCheck
-  m_TagString: Untagged
+  m_TagString: GroundCheck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,7 +274,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010007791, y: -0.004288338}
+  m_Offset: {x: -0.010007791, y: -0.010133654}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -285,7 +285,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.111093655, y: 0.19080172}
+  m_Size: {x: 0.111093655, y: 0.20249236}
   m_EdgeRadius: 0
 --- !u!114 &143799984
 MonoBehaviour:
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   isGrounded: 1
 --- !u!1 &519420028
 GameObject:
@@ -444,7 +444,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2137702229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -489,8 +489,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   moveSpeed: 0
-  walkingSpeed: 1
-  jumpForce: 0
+  walkingSpeed: 5
+  jumpForce: 100
   runMultiplier: 2
   jumpSound: {fileID: 0}
 --- !u!212 &2137702231
