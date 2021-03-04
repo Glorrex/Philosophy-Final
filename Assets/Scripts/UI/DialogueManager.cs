@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+//using TextMeshProUGUI;
 
 public class DialogueManager : MonoBehaviour
 {
