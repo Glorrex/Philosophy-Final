@@ -1159,6 +1159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1604426455}
   dialogueText: {fileID: 1684831295}
+  animator: {fileID: 1528653352}
 --- !u!4 &719981529
 Transform:
   m_ObjectHideFlags: 0
@@ -1374,7 +1375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866297380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.24, y: -2.1550438, z: -10.271409}
+  m_LocalPosition: {x: -0.69, y: -2.1550438, z: -10.271409}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1703,6 +1704,7 @@ GameObject:
   - component: {fileID: 1528653349}
   - component: {fileID: 1528653351}
   - component: {fileID: 1528653350}
+  - component: {fileID: 1528653352}
   m_Layer: 5
   m_Name: Dialogue BG
   m_TagString: Untagged
@@ -1768,6 +1770,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528653348}
   m_CullTransparentMesh: 0
+--- !u!95 &1528653352
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528653348}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f9c5f415cfa541347b0597ae31b82f30, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1544183010
 GameObject:
   m_ObjectHideFlags: 0
