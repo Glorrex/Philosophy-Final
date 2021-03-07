@@ -30,7 +30,7 @@ public class EnemyAlwaysAwake : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemyone") || collision.gameObject.CompareTag("Environment"))
+        if (collision.gameObject.CompareTag("Enemyone") || collision.gameObject.CompareTag("Environment1"))
         {
             
             movementDirection *= -1f;

@@ -3389,6 +3389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 5575658492644911506, guid: 4a1aac18d0a24ca4f985f0e3857a39fe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment1
+      objectReference: {fileID: 0}
     - target: {fileID: 5575658492644911509, guid: 4a1aac18d0a24ca4f985f0e3857a39fe,
         type: 3}
       propertyPath: m_LocalPosition.x

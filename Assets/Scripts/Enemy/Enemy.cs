@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
         }
     private void OnCollisionEnter2D(Collision2D collider)
     {
-        if (collider.gameObject.CompareTag("Enemy")||collider.gameObject.CompareTag("Environment"))
+        if (collider.gameObject.CompareTag("Enemy")||collider.gameObject.CompareTag("Environment1"))
         {
             movementDirection *= -1f;
         }

@@ -12,6 +12,7 @@ TagManager:
   - Enemyone
   - Enviroment
   - Audio1
+  - Environment1
   layers:
   - Default
   - TransparentFX
