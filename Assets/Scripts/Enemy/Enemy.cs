@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
 
             {
                 GetComponent<Rigidbody2D>().WakeUp();
-                Debug.Log("Distance is less than 5");
+    //
                 Move(movementDirection);
             }
         }
