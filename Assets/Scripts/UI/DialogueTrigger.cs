@@ -15,5 +15,9 @@ public class DialogueTrigger : MonoBehaviour
         {
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         }
+        if (collision.CompareTag("PlayerEndScreen"))
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        }
     }
 }

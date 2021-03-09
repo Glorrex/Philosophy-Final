@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyAlwaysAwake : MonoBehaviour
 {
@@ -34,6 +35,12 @@ public class EnemyAlwaysAwake : MonoBehaviour
         {
             
             movementDirection *= -1f;
+        }
+        {
+            
+        if (collision.gameObject.CompareTag("PlayerEndScreen"))
+            SceneManager.LoadScene("Philosophy Final");
+            
         }
     }
 }

@@ -105,8 +105,8 @@ void Update()
             Die();
         }
         {
-            //if (collider.CompareTag("WinCondition"))
-                //SceneManager.LoadScene("GameWinCondition");
+            if (collider.CompareTag("WinSceneTransition"))
+                SceneManager.LoadScene("WinScene");
         }
         //if (gameObject.transform.position.x>=160)
         {

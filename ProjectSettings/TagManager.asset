@@ -14,6 +14,8 @@ TagManager:
   - Audio1
   - Environment1
   - EnemyTest
+  - WinSceneTransition
+  - PlayerEndScreen
   layers:
   - Default
   - TransparentFX
