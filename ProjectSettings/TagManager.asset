@@ -13,6 +13,7 @@ TagManager:
   - Enviroment
   - Audio1
   - Environment1
+  - EnemyTest
   layers:
   - Default
   - TransparentFX
