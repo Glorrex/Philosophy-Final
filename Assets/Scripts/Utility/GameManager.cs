@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private int score;
 
     [SerializeField]
-    private int coins;
+    public int coins;
 
     [SerializeField]
     private bool isGameOver = false;
