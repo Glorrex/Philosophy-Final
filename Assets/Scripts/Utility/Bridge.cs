@@ -14,7 +14,7 @@ public class Bridge : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (gameManager.coins == 1)
+        if (gameManager.coins == 3)
         {
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
             BoxCollider2D col = gameObject.GetComponent<BoxCollider2D>();
