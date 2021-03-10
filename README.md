@@ -8,3 +8,5 @@ BRACKEYS- "How to make a Dialogue System in Unity" https://www.youtube.com/watch
 MUSIC:
 Zackary Stoneburner- "Joy of creation title vr2" Made using free samples from https://www.soundtrap.com/
 Zackary Stoneburner- "Joy of creation title vr1" Made using free samples from https://www.soundtrap.com/
+Dan Lebowitz- Freedom_ Downloaded from the youtube audio library
+Asher Fulero- Elegy Downloaded from the youtube audio library
