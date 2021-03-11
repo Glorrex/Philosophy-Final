@@ -2007,7 +2007,7 @@ PrefabInstance:
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.58
+      value: 17.805252
       objectReference: {fileID: 0}
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
@@ -2274,7 +2274,7 @@ PrefabInstance:
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.74
+      value: 21.529
       objectReference: {fileID: 0}
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
@@ -2945,13 +2945,14 @@ MonoBehaviour:
     name: Dude
     sentences:
     - '*As the light from the tree top starts to brighten, and the cries of excitment
-      coming from the villagers fills your ears; you see a man looking directly back
-      at you.*'
+      coming from the villagers fills your ears; you see a man standing infront of
+      you.*'
     - Oh hey! You did it! Nice going there, bud. You managed to find your own joy
-      I see! It's like I've been saying, joy is the key to getting out of this place,
-      but no one ever listens to me. Its a far distance to yell, that gap was, and
-      I think they may have misheard me... Oh well, all's well now! Im sure that
-      they'll all be excited to finally get out of here.
+      I see! It's like I've been saying, joy is the key to creating an exit out of
+      this place, but no one ever listens to me. Its a far distance to yell, that
+      gap was, and I think they may have misheard some of the things I've said...
+      Oh well, all's well now! Im sure that they'll all be excited to finally get
+      out of here. Go on up ahead, im sure they'll all catch up with you.
 --- !u!1 &1133285999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,7 +3104,7 @@ PrefabInstance:
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.551
+      value: 19.776253
       objectReference: {fileID: 0}
     - target: {fileID: 286909316760578815, guid: 6fa7ba7271b30dc40b033383c603a618,
         type: 3}
@@ -5647,7 +5648,7 @@ PrefabInstance:
     - target: {fileID: 1862847473193363907, guid: 8d421851d57cd9248ad83036be1ce2c2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.703782
+      value: 0.107
       objectReference: {fileID: 0}
     - target: {fileID: 1862847473193363907, guid: 8d421851d57cd9248ad83036be1ce2c2,
         type: 3}
