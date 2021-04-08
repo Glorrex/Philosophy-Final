@@ -28,6 +28,6 @@ public class UIText : MonoBehaviour
         score = gameManager.GetComponent<GameManager>().getScore();
         scoreText.text = "" + score;
         coins = gameManager.GetComponent<GameManager>().getCoins();
-        coinsText.text = "Joy x" + coins;
+        coinsText.text = "" + coins;
     }
 }
